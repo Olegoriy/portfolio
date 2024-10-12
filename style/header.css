@@ -1,13 +1,14 @@
 .header{
     background-color: #a1b7c8; 
     min-height: 60px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
 }
 
 .header__container{
     display: flex;
     justify-content: space-between;
-    padding-top: 13px;
-    padding-bottom: 13px;
     align-items: center;
 }
 
@@ -31,8 +32,12 @@
     background-image: url("../img/menu.svg");
 }
 
-.contacts__item:not(:last-child){
+.contacts__item{
     margin-bottom: 50px;
+}
+
+.contacts__item :last-child{
+    margin-bottom: 0;
 }
 
 .contacts__head{
@@ -79,4 +84,30 @@
 }
 .contacts__social-link_telegram{
     background-image: url(../img/telegram.svg);
+}
+
+@media (min-width: 768px){
+    .header{
+        min-height: 100px;
+        padding: 28px 0;       
+    }
+
+    .header__logo{
+        width: 180px;
+        height: 43px;
+    }
+
+    .header__contacts{
+        top: 101px;
+        padding: 40px;
+    }
+
+    .contacts__list{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts__item{
+        margin-bottom: 0;
+    }
 }
