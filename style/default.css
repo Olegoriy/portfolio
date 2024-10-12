@@ -11,7 +11,7 @@ body{
     min-width: 320px;
     min-height: 100vh;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
      color: var(--1); /* 110303 */
