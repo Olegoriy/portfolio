@@ -1,3 +1,24 @@
 .header{
-    background-color: #a1b7c8;
+    background-color: #a1b7c8; 
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.header__logo{
+    width: 124px;
+}
+.header__contacts{
+    display: none;
+}
+
+.header__contacts-burger{
+    display: block;
+    width: 27px;
+    height: 14px;
+    background-image: url("../img/menu.svg");
 }
