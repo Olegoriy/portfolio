@@ -134,8 +134,8 @@
         flex-direction: column;
     }
 
-    .contacts__item :not(:last-child){
-        margin-bottom: 50px;
+    .contacts__item:not(:last-child){
+        padding-bottom: 50px;
     }
 
     .header__contacts-burger{
