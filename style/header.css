@@ -1,5 +1,5 @@
 .header{
-    background-color: #a1b7c8; 
+    background-color: #b45d2b; 
     min-height: 60px;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -18,7 +18,7 @@
 .header__contacts{
     display: none;
     position: absolute;
-    background-color: #A1B7C8;
+    background-color: #b45d2b;
     top: 61px;
     left: 0;
     right: 0;
