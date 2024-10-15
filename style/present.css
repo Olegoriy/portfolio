@@ -1,0 +1,39 @@
+.present{
+    margin-left: 15px;
+}
+
+.present__photo{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.present_group-title{
+    margin-bottom: 18px;
+}
+.present__title{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+.present__subtitle{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+.present__description{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 140%;
+}
+.present__order-btn{
+    padding: 16px 60px;
+    background-color: #e87c40;    
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFF;
+}
