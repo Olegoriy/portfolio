@@ -1,5 +1,5 @@
 .header{
-    background-color: #e25f13; 
+    background-color: #ff6600; 
     min-height: 60px;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -18,7 +18,7 @@
 .header__contacts{
     display: none;
     position: absolute;
-    background-color: #e25f13;
+    background-color: #ff6600;
     top: 61px;
     left: 0;
     right: 0;
@@ -121,6 +121,7 @@
     .header__container{
         height: 100%;
         flex-direction: column;
+        padding: 0 20px;
         align-items: flex-end;
     }
 

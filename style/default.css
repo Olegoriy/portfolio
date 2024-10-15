@@ -64,7 +64,19 @@ section{
     }
 }
 
+section{
+    padding: 50px 0;
+}
+
 @media (min-width: 992px) {
+    .container{
+        padding: 0 300px 0 270px;
+    }
+
+    section{
+        padding: 65px 0;
+    }
+
     .page__header{
         width: 240px;
         position: fixed;
@@ -78,5 +90,9 @@ section{
     .page__header{
         width: 355px;
         left: calc(50%-720px);
+    }
+
+    section{
+        padding: 75px 0;
     }
 }
