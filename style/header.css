@@ -115,24 +115,23 @@
 
 @media (min-width: 992px){
     .header{
-        position: fixed;
-        left: 0;
-        top: 0;
-        height: 100%;
         padding: 50px 0;
     }
 
     .header__container{
         height: 100%;
         flex-direction: column;
+        align-items: flex-end;
     }
 
-.contacs{
-    display: block;
-}
+    .contacs{
+        display: block;
+    }
 
     .header__contacts{
         position: static;
+        display: block;
+        padding: 0;
     }
 
     .contacts__list{
@@ -146,7 +145,7 @@
     .header__contacts-burger{
         display: none;
     }
-    }
+}
 
 @media (min-width: 1440px){
     .header{
