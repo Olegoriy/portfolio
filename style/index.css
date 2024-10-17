@@ -1,5 +1,6 @@
 @import "normalize.css";
-@import "font.css";
+@import "swiper-bundle.min.css";
+@import "fonts.css";
 @import "default.css";
 @import "header.css";
 @import "present.css";
