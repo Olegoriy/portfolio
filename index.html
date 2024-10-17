@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Олег Кибалин - создание сайтов для вашего бизнеса</title>
     <link rel="stylesheet" href="style/index.css">
-
+    <script defer src="js/jquery-3.7.1.min.js"></script>
     <script defer src="js/swiper-bundle.min.js"></script>
     <script defer src="js/index.js"></script>
 </head>
@@ -107,9 +107,11 @@
         <section class="portfolio">
             <div class="container">
                 <h2 class="portfolio__title">Портфолио</h2>
-                <div class="portfolio__slider">
-                    <ul class="portfolio__list">
-                        <li class="porfolio__item">
+
+
+                <div class="portfolio__slider swiper">
+                    <ul class="portfolio__list swiper-wrapper">
+                        <li class="porfolio__item swiper-slide">
                             <article class="card">
                                 <img src="img/cinema.jpg" alt="" class="card__picture">
                                 <p class="card__data">
@@ -120,7 +122,7 @@
                             </article>
                         </li>
 
-                        <li class="porfolio__item">
+                        <li class="porfolio__item swiper-slide">
                             <article class="card">
                                 <img src="img/iphone.jpg" alt="" class="card__picture">
                                 <p class="card__data">
@@ -131,7 +133,7 @@
                             </article>
                         </li>
 
-                        <li class="porfolio__item">
+                        <li class="porfolio__item swiper-slide">
                             <article class="card">
                                 <img src="img/go.jpg" alt="" class="card__picture">
                                 <p class="card__data">
@@ -142,7 +144,7 @@
                             </article>
                         </li>
                         
-                        <li class="porfolio__item">
+                        <li class="porfolio__item swiper-slide">
                             <article class="card">
                                 <img src="img/friendly_house.jpg" alt="" class="card__picture">
                                 <p class="card__data">
@@ -153,16 +155,7 @@
                             </article>
                         </li>
 
-                        <li class="porfolio__item">
-                            <article class="card">
-                                <img src="img/dom.jpg" alt="" class="card__picture">
-                                <p class="card__data">
-                                    <span class="card__client">Клиент: ItalGroup boutique</span>
-                                    <time datetime="2020" class="card__date">год: 2020</time>
-                                    <h3 class="card__title">Многостраничный сайт</h3>
-                                </p>
-                            </article>
-                        </li>
+                        
 
                     </ul>
                     <button class="portfolio__arrow portfolio__arrow_left"></button>
