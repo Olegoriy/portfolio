@@ -104,6 +104,9 @@
 }
 
 @media (min-width: 1440px){
+    .portfolio{
+        padding-left: 100px;
+    }
     .portfolio__slider{
         max-width: 825px;
     }
