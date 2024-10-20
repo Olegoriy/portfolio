@@ -166,5 +166,68 @@
             </div>
         </section>
     </main>
+
+    <div class="page__overlay page__overlay_modal">
+        <div class="modal">
+            <h2 class="modal__title">Заполните форму и я свяжусь с вами</h2>
+            <form class="modal__form callback">
+
+                <fieldset class="callback__group">
+                    <legend class="visually-hidden">Личные данные</legend>
+                    <label class="callback__label">
+                        <span class="callback__label-text">ФИО</span>
+                        <input class="callback__input" type="text" name="bio" placeholder="Введите ваше ФИО">
+                    </label>
+
+                    <label class="callback__label">
+                        <span class="callback__label-text">Телефон</span>
+                        <input class="callback__input" type="text" name="phone" placeholder="Введите ваш номер телефона">
+                    </label>
+                </fieldset>
+
+
+                <fieldset class="callback__group connect">
+                <legend class="connect__title">Где удобнее связаться?</legend>
+                
+                    <label class="connect__label">
+                        <input class="connect__radio" type="radio" name="connect" value="telegram">
+                        <span class="connect__text">Телеграмм</span>
+
+                    </label>
+
+
+                    <label class="connect__label">
+                        <input class="connect__radio" type="radio" name="connect" value="whatsapp">
+                        <span class="connect__text">Whatsapp</span>
+
+                    </label>
+
+
+                    <label class="connect__label">
+                        <input class="connect__radio" type="radio" name="connect" value="call">
+                        <span class="connect__text">Позвонить</span>
+
+                    </label>
+
+
+                    <label class="connect__label">
+                        <input class="connect__radio" type="radio" name="connect" value="viber">
+                        <span class="connect__text">Viber</span>
+
+                    </label>
+                    
+                </fieldset>
+                <button type="submit" class="callback__btn">Заказать</button>
+
+            </form>
+            <button class="modal__close">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="29.1681" height="1.94454" rx="0.972271" transform="matrix(0.707106 -0.707107 0.707106 0.707107 0 20.625)" fill="#282626"/>
+                    <rect width="29.1681" height="1.94454" rx="0.972271" transform="matrix(0.707106 0.707107 -0.707106 0.707107 1.375 0)" fill="#282626"/>
+                </svg>                    
+            </button>
+        </div>
+    </div>
+
 </body>
 </html>
