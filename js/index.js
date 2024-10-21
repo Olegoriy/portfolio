@@ -25,10 +25,22 @@ $('.header__contacts-burger').click(() => {
     $('.header__contacts').slideToggle();
 })
 
-$('.present__order-btn').click(()=>{
+$('.present__order-btn').click(() => {
     $('.page__overlay_modal').fadeIn(400).css('display', 'flex')
 })
 
 $('.modal__close').click(() => {
     $('.page__overlay_modal').fadeOut(400)
 })
+
+$('.page__overlay_modal').click((event) => {
+    if ($(event.target).is('.page__overlay_modal')) {
+        $('.page__overlay_modal').fadeOut(400);
+    }
+});
+
+$(document).keydown((event) => {
+    if (event.key === 'Escape') {
+        $('.page__overlay_modal').fadeOut(400);
+    }
+});
