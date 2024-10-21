@@ -119,6 +119,9 @@
 }
 
 @media (min-width: 1440px){
+    .present{
+        padding-left: 8px;
+    }
     .present__photo{
         width: 445px;
     }
